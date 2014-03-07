@@ -31,8 +31,8 @@ class ScrumPlugin extends MantisPlugin
 		return array(
 			#$g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,80:resolved,90:closed';
 			"board_columns" => array(
-				"ToDo" => array(10, 20, 30),
-				"In Progress" => array(40, 50),
+				"ToDo" => array(10, 20, 30, 50),
+				"In Progress" => array(40),
 				"DONE" => array(80),
 			),
 
